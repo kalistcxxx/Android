@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorGray">#b3b3b4</color>
+    <color name="color_background">#202e3b</color>
+    <color name="background_progress_dialog">#80000000</color>
+    <color name="dialog_text">#252525</color>
+    <color name="dlg_button">#1066B8</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="grey_300">#E0E0E0</color>
+    <color name="grey_trans">#80E0E0E0</color>
+    <color name="grey">#9E9E9E</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="text_color_tab">#B3FFFFFF</color>
+    <color name="red_A400">#FF1744</color>
+    <color name="green">#00C853</color>
+    <color name="yellow">#FFD600</color>
+    <color name="file_screen_bg">#80616161</color>
+    <color name="file_screen_bg_on">#CC424242</color>
+    <color name="searching_layout_bg_trans">#B3616161</color>
+    <color name="border_layout">#424242</color>
+    <color name="text_color_dot_inactive">#d8d8d8</color>
+    <color name="text_color_dot_active">#d90069</color>
+    <color name="back_ground_grey">#EEEEEE</color>
+    <color name="color_title_creen">#F5F5F5</color>
+    <color name="btn_disable">#565759</color>
+    <color name="information_attrs">#F4F4F4</color>
+    <color name="dark_blur">#99848F9A</color>
+    <color name="cancel_button">#AFAFAF</color>
+    <color name="menu_bgd">#BF2C2E2D</color>
+    <color name="outside_menu_bgd">#998F9190</color>
+    <color name="commit_button">#FF9571</color>
+    <color name="commit_button_off">#FE8359</color>
+    <color name="tab_color_check">#FF8358</color>
+    <color name="classify1">#7DA0E0</color>
+    <color name="classify2">#FCBD62</color>
+    <color name="classify3">#F68776</color>
+    <color name="classify4">#59BE9A</color>
+    <color name="color_title_screen">#F5F5F5</color>
+</resources>

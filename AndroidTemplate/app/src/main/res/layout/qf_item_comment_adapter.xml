@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:clickable="false">
+    <com.corp.k.androidos.android.view.customviews.CircleImageView
+        android:id="@+id/imgThumbnail"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_margin="10dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1" android:orientation="vertical">
+        <TextView
+            android:id="@+id/txtUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="Name" android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/txtJobPosition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="Job Postion" android:textSize="12sp"/>
+        <TextView
+            android:id="@+id/txtFullContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="Full Content"/>
+        <TextView
+            android:id="@+id/txtCreatedDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_gravity="right" android:text="Time"
+            android:textSize="12sp"/>
+    </LinearLayout>
+</LinearLayout>

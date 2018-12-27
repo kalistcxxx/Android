@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@null">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/margin_padding_default_2.5x">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/margin_padding_default_2.5x"
+            android:paddingRight="@dimen/margin_padding_default_2.5x">
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|left"
+                android:paddingBottom="@dimen/margin_padding_default"
+                android:text="@string/str_error"
+                android:textColor="@color/dialog_text"
+                android:textSize="@dimen/text_size_16"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvMesage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="@color/dialog_text"
+                android:textSize="@dimen/text_size_15" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/colorGray" />
+
+
+        <Button
+            android:id="@+id/btnOK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="bottom|right"
+            android:maxLines="1"
+            android:paddingBottom="@dimen/margin_padding_default_2.5x"
+            android:paddingLeft="@dimen/margin_padding_default_2.5x"
+            android:paddingRight="@dimen/margin_padding_default_2.5x"
+            android:paddingTop="@dimen/margin_padding_default_2.5x"
+            android:text="@string/str_ok"
+            android:textColor="@color/dlg_button"
+            android:textAllCaps="false"
+            android:textSize="@dimen/text_size_15" />
+    </LinearLayout>
+</LinearLayout>

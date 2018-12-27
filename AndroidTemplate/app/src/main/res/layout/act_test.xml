@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable name="user" type="com.corp.k.androidos.databinding.UserBinding"/>
+        <variable name="main" type="com.corp.k.androidos.databinding.TestActivty"/>
+    </data>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{user.firstName}"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{user.lastName}"
+            android:textColor="@color/black"/>
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/listBindingItem"/>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:id="@+id/changeRow"/>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:id="@+id/changeRow2"/>
+    </LinearLayout>
+</layout>
