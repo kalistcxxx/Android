@@ -47,11 +47,15 @@ public class MainActivity extends AppCompatActivity {
         View v = getCurrentFocus();
     }
 
+    int count = 0;
+    private final Object obj = new Object();
+
     public int getInteger(){
+
         Thread thread = new Thread(new Runnable() {
-            int count = 0;
             @Override
             public void run() {
+
                 OnCounting c = new OnCounting() {
                     @Override
                     public int onCounted() {

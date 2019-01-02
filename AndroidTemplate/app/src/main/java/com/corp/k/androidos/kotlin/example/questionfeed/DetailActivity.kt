@@ -1,5 +1,6 @@
 package com.corp.k.androidos.kotlin.example.questionfeed
 
+import android.graphics.Point
 import android.os.Build
 import android.os.Bundle
 import android.support.v4.view.ViewCompat
@@ -8,9 +9,8 @@ import android.transition.Transition
 import android.widget.ImageView
 import android.widget.TextView
 import com.corp.k.androidos.R
-import com.squareup.picasso.Picasso
-import android.graphics.Point
 import com.corp.k.androidos.kotlin.example.questionfeed.models.Item
+import com.squareup.picasso.Picasso
 
 
 class DetailActivity : AppCompatActivity(){
